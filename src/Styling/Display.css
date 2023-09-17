@@ -1,0 +1,39 @@
+.Display_contianer {
+    overflow: hidden;
+
+    height: 279px;
+    padding: 30px;
+}
+.bot_msg{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+
+}
+.bot_chats{
+    background:#71DFA7 ;
+    color: white;
+
+}
+.bot_chats{
+    border-radius: 0px 10px 10px 17px;
+    padding: 7px;
+}
+.User_chat{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+.Bot_msg_area{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.User_chat_cont{
+    background: #53C2ED;
+    color: white;
+    padding:7px;
+    border-radius: 10px 10px 0px 10px;
+}

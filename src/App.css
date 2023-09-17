@@ -1,0 +1,269 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:wght@500;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Main-Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+height: 930px;
+background: #E1E6F9;
+}
+
+.Main-Screen{
+  margin: 20px 0 20px 0;
+border-radius: 20px;
+  width: 460px;
+  height: 700px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.buttonsarea{
+  padding: 20px;
+}
+.timeArea{
+  padding: 20px;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.react-chatbot-kit-chat-container {
+border: 2px solid;
+  width: 400px !important; 
+  overflow: hidden;
+  height: 706px !important ; 
+  border-radius: 20px;
+}
+.react-chatbot-kit-chat-message-container{
+  background: whitesmoke;
+}
+
+.react-chatbot-kit-chat-bot-message{
+  margin-left: 0 !important;
+}
+.react-chatbot-kit-user-chat-message{
+position: none !important;
+}
+
+.catBtuton button{
+  color: white;
+  background: salmon;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+.catBtuton{
+  padding-left: 120px;
+}
+.check{
+  display: none;
+}
+
+.Main_cont{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.day_cont{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.buttonSelect{
+  display: flex;
+  flex-direction: column;
+}
+.day_cont button{
+  padding: 10px;
+}
+.timeSLot{
+  padding: 20px;
+  display: flex;
+
+  justify-content: center;
+}
+.btn-group{
+  
+  .select{
+      position:relative;
+    
+      input:checked + label {
+        background-color: #ffc107;
+        &:hover,
+        &:focus,
+        &:active{
+          background-color: #ffc107;      
+        }
+    }  
+    input{
+        opacity: 0;
+        position: absolute;
+      }
+    
+    .button_select{
+      margin: 0 10px 10px 0;
+      display:flex;
+      background-color: transparent;   
+      
+      &:hover,
+      &:focus,
+      &:active{
+        background-color: transparent;      
+      }
+    }
+  }
+    
+  }
+  
+  
+  .option {
+      position:relative;
+    
+    input{
+        opacity: 0;
+        position: absolute;
+      }
+    
+    input:checked + span {
+        background-color: #ffc107;
+        &:hover,
+        &:focus,
+        &:active{
+          background-color: #ffc107;      
+        }
+    } 
+    
+    .btn-option{
+      margin: 0 10px 10px 0;
+      display:flex;
+      background-color: transparent;   
+      
+      &:hover,
+      &:focus,
+      &:active{
+        background-color: transparent;      
+      }
+    }
+  }
+  .control {
+    display: inline-flex;
+    position: relative;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 99em;
+  }
+  .control input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  .control__content {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    width: 100px;
+    /* line-height: 32px; */
+    color: rgba(0, 0, 0, 0.54);
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 99em;
+}
+  .control:hover & {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+.control input:focus ~ .control__content {
+  box-shadow: 0 0 0 0.25rem rgba(12, 242, 143, .2);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.control input:checked ~ .control__content {
+  background-color: rgba(12, 242, 143, .2);
+}
+
+.ending{
+  background: black;
+  color: white;
+  padding: 20px;
+  margin: 20px  ;
+  display: flex;
+  align-items: center;
+  height: 200px;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+}
+.react-chatbot-kit-chat-message-container{
+  height: 655px !important;
+}
+.react-chatbot-kit-chat-input-form input,button{
+ 
+}
+
+
+.login-contianer{
+  border: 2px solid;
+    width: 400px;
+    height: 706px !important;
+    display: flex;
+    border-radius: 20px;
+    background: whitesmoke;
+}
+
+.main_login_contianer{
+margin: auto;
+text-align: center;
+
+}
+.main_login_contianer button {
+  height: 36px;
+  background: aquamarine;
+  border-radius: 20px;
+  width: 200px;
+  border: none;
+  cursor: pointer;
+}
+.new_page{
+
+  border: 2px solid;
+    width: 400px;
+    height: 706px ;
+    align-items: center;
+   justify-content: center;
+    display: flex;
+    border-radius: 20px;
+}
+.start_bnt button{
+  background: bisque;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 111px;
+}
+#target{
+  color: cadetblue;
+}
+.control__content{
+}
+.control__content p{
+  font-size: 15px;
+
+}
+.forscroll{
+  overflow-x: scroll;
+}
+.forscroll::-webkit-scrollbar{
+  display: none;
+}
+

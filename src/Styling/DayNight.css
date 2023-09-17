@@ -1,0 +1,8 @@
+.TimeArea{
+    display: flex;
+    gap: 20px;
+}
+.mornig_NOON h1{
+    font-size: 1em;
+    padding: 4px 0 2px 0;
+}
