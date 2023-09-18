@@ -216,6 +216,7 @@ gap: 20px;
 .login-contianer{
   border: 2px solid;
     width: 400px;
+    margin: 20px;
     height: 706px !important;
     display: flex;
     border-radius: 20px;
@@ -254,8 +255,7 @@ text-align: center;
 #target{
   color: cadetblue;
 }
-.control__content{
-}
+
 .control__content p{
   font-size: 15px;
 
@@ -267,3 +267,7 @@ text-align: center;
   display: none;
 }
 
+
+@media screen and (max-width: 420px) {
+
+}
