@@ -85,10 +85,10 @@ export default function MainBtns(props) {
       {isElementVisible && (
         <section className="Main_cont">
           <div key={id} className="day_cont forscroll">
-            {Day.map((itemTime) => {
+            {Day.map((itemTime,id) => {
               return (
                 <>
-                  <label className="control">
+                  <label key={id} className="control">
                     <input
                       type="checkbox"
                       id="technology"
@@ -107,10 +107,10 @@ export default function MainBtns(props) {
           <div className="Time_cont forscroll">
             <p>Morning</p>
             <div className="timeSLot">
-              {Time.map((itmeTIme) => {
+              {Time.map((itmeTIme,id) => {
                 return (
                   <>
-                    <label className="control">
+                    <label key={id} className="control">
                       <input
                         type="checkbox"
                         id="technology"
@@ -131,10 +131,10 @@ export default function MainBtns(props) {
               <p>NOON</p>
               <h1></h1>
               <div className="timeSLot forscroll">
-                {Time.map((itmeTIme) => {
+                {Time.map((itmeTIme,id) => {
                   return (
                     <>
-                      <label className="control">
+                      <label key={id} className="control">
                         <input
                           type="checkbox"
                           id="technology"

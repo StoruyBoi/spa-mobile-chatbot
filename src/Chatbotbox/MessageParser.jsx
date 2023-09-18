@@ -1,7 +1,19 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import { useDispatch } from 'react-redux';
+import { setUserData } from '../store/slices/UserSlice'; 
 const MessageParser = ({ children, actions }) => {
-  console.log(children.props.state.userData);
+
+  const dispatch = useDispatch();
+
+
+    // Dispatch the userData to Redux automatically when the component mounts
+    const userData = {
+      name: children.props.state.userData.name,
+      age:  children.props.state.userData.age,
+    };
+    dispatch(setUserData(userData));
+
+
   const parse = (message) => {
     if (children.props.state.checker === "age") {
       actions.afterNameMessage();
@@ -11,10 +23,14 @@ const MessageParser = ({ children, actions }) => {
       actions.afterageMessage();
       children.props.state.userData.age = message;
     }
+      
   };
+
+
 
   return (
     <div>
+   
       {React.Children.map(children, (child) => {
         return React.cloneElement(child, {
           parse: parse,
