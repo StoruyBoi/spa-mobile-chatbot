@@ -38,6 +38,7 @@ flex-direction: column;
 
 .react-chatbot-kit-chat-container {
 border: 2px solid;
+margin: 20px;
   width: 400px !important; 
   overflow: hidden;
   height: 706px !important ; 
